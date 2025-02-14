@@ -2,8 +2,7 @@ def eh_palindromo(palavra):
   return palavra == palavra[::-1]
 
 
-texto = "Desdehzitto e Ysarot eht otizshde oossoossoosso "
-texto2 = "Socorram me subi no onibus em Marrocos"
+texto = "Socorram me subi no onibus em Marrocos"
 
 def maior_palindromo(texto):
   maior_palindromo_atual = 1
